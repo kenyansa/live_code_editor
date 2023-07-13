@@ -4,3 +4,12 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+body{
+    background: darkslateblue;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
