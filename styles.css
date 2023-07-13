@@ -14,7 +14,7 @@ body{
     padding: 20px;
     display: flex;
 }
-.eft,.right{
+.left,.right{
     flex-basis: 50%;
     padding: 10px;
 }
