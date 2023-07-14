@@ -20,7 +20,7 @@ function run(){
     style.innerHTML = cssCode;
     
     //append the <style> element to the <head> of the iframe document
-    output.contentDocument.appendChild(style);
+    output.contentDocument.head.appendChild(style);
 
     // output.contentWindow.eval(jsCode); Instead, use the code code below:
     executeCode(jsCode)
